@@ -2,16 +2,20 @@
     --title-text-color:#212121;
     --p-text-color:#757575;
     --highlight-color:#2196F3;
+    --white-color:  #FFFFFF;
+    --bg-color: #2F303A;
 }
 
 body {
     font-family: Roboto, sans-serif;
-    background-color: #FFFFFF;
+    background-color: var(--white-color);
     
 }
 
 .list {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .link {
@@ -24,6 +28,25 @@ body {
     color:  var(--highlight-color);
     
 }
+
+.page-header {
+ background-color: var(--white-color) 
+};
+ 
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+/* .nav-container {
+
+} */
+
 /* WEBstudio */
 .logo-first {
     font-family: Raleway;
@@ -66,10 +89,16 @@ body {
     line-height: 1.14em;
     letter-spacing: 0.02em;
     color: var(--p-text-color);
+
 }
+/* Основной контент */
+
+
+
 /* главный заголовок h1 */
 .main-title {
-
+    margin-top: 0;
+    margin-bottom: 0;
     font-family: Roboto;
     font-style: normal;
     font-weight: 900;
@@ -78,22 +107,29 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
-    background-color: #2F303A;
+    color: var(--white-color);
+    background-color: var(--bg-color);
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 
 /* заказать услугу */
 .link-btn {
+    display: inline-block;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.9em;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--white-color);
     background-color: var(--highlight-color);
     text-decoration: none;
+    padding: 10px 32px;
+    border-radius: 4px;
+    min-width: 200px;
+    
 }
 
 /* .link-btn:hover,
@@ -202,7 +238,7 @@ color: var(--p-text-color);
 
 /* подвал */
 .footer {
-    background-color: #2F303A;
+    background-color: var(--bg-color);
 }
 
 .logo-footer-sec {
@@ -212,7 +248,7 @@ color: var(--p-text-color);
     font-size: 26px;
     line-height: 1.19em;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
 .logo-footer-first {
@@ -233,7 +269,7 @@ color: var(--p-text-color);
     font-size: 14px;
     line-height: 1.71em;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
 /* контакты */
