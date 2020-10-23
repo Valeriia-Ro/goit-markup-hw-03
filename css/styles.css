@@ -66,6 +66,20 @@ body {
     letter-spacing: 0.03em;
     color: var(--title-text-color);
     text-decoration: none;
+    margin-right: 90px;
+    
+}
+
+/* .nav-container {
+} */
+
+.site-nav {
+    display: flex;
+}
+
+
+.site-nav .item:not(:last-child) {
+    margin-right: 50px;
 }
 
 /* навигация страниц */
@@ -79,6 +93,17 @@ body {
     color: var(--title-text-color);
 }
 
+.mailto-list {
+    display: flex;
+    margin-left: auto;
+}
+
+.mailto-list .item + .item {
+    margin-left: 50px;
+}
+
+
+
 /* контакты в наыигации */
 .link-contacts {
     font-family: Roboto;
@@ -89,6 +114,11 @@ body {
     letter-spacing: 0.02em;
     color: var(--p-text-color);
 
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
 }
 /* Основной контент */
 
@@ -225,6 +255,9 @@ body {
     margin-top: 0;
     margin-bottom: 30px;
 
+}
+.text-job:last-child {
+    margin-bottom: 0;
 }
 
 /* Страница портофолио */
