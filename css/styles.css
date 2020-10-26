@@ -39,7 +39,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     width: 1200px;
-    outline: 2px solid tomato;
+    /* outline: 2px solid tomato; */
     margin-right: auto;
     margin-left: auto;
 }
@@ -119,6 +119,8 @@ body {
 .main-nav {
     display: flex;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 /* Основной контент */
 
@@ -128,9 +130,13 @@ body {
     background-color: var(--bg-color);
 }
 
-
+.block {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
 /* главный заголовок h1 */
 .main-title {
+   
     margin-top: 0;
     margin-bottom: 30px;
     font-family: Roboto;
@@ -142,7 +148,7 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--white-color);
-   
+
 }
 
 
@@ -168,6 +174,11 @@ body {
 /* фон секции с кнопкой */
 .sec-section {
     background-color: var(--white-color);
+}
+
+.features {
+    margin-top: 94px;
+    margin-bottom: 94px;
 }
 
 /* скрытый заголовок */
@@ -224,6 +235,10 @@ body {
     margin: 0;
 }
 
+.special {
+    margin-bottom: 94px;
+}
+
 /* заголовки h2 */
 .subtitle {
     font-family: Roboto;
@@ -247,6 +262,10 @@ body {
 }
 
 /* наша команда */
+.team-content {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .team-list {
     display: flex;
@@ -303,6 +322,11 @@ body {
 
 /* Страница портофолио */
 /* Основной контент */
+
+.main-cont {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
 
 .btn-list {
     display: flex; 
@@ -385,6 +409,11 @@ body {
 /* подвал */
 .footer {
     background-color: var(--bg-color);
+}
+
+.foot-content {
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .logo-footer-sec {
