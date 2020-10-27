@@ -121,6 +121,9 @@ body {
     align-items: center;
     padding-top: 24px;
     padding-bottom: 25px;
+    height: 80px;
+    border-bottom: 1px solid #EEEEEE;
+    
 }
 /* Основной контент */
 
@@ -133,6 +136,7 @@ body {
 .block {
     padding-top: 200px;
     padding-bottom: 200px;
+    
 }
 /* главный заголовок h1 */
 .main-title {
@@ -148,7 +152,8 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--white-color);
-
+    height: 120px;
+    
 }
 
 
@@ -197,6 +202,7 @@ body {
 .features-list {
     display: flex;
     flex-wrap: wrap;
+    height: 101px;
 }
 
 .features-list>.item {
@@ -237,6 +243,7 @@ body {
 
 .special {
     margin-bottom: 94px;
+    height: 386px;
 }
 
 /* заголовки h2 */
@@ -265,6 +272,7 @@ body {
 .team-content {
     padding-top: 94px;
     padding-bottom: 94px;
+    height: 648px;
 }
 
 .team-list {
@@ -274,6 +282,7 @@ body {
 .team-element {
     width: 270px;
     margin-right: 30px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .team-element:last-child {
@@ -316,12 +325,14 @@ body {
     margin-bottom: 30px;
 
 }
-.text-job:last-child {
+/* .text-job:last-child {
     margin-bottom: 0;
-}
+} */
 
 /* Страница портофолио */
 /* Основной контент */
+
+
 
 .main-cont {
     margin-top: 94px;
@@ -331,7 +342,8 @@ body {
 .btn-list {
     display: flex; 
     justify-content: center; 
-    margin-bottom: 50px;
+    margin-bottom: 36px;
+    height: 52px;
 }
 .btn-item:not(:last-child) {
     margin-right: 8px;
@@ -365,7 +377,9 @@ body {
 .work-item {
     width: 370px;
     margin-right: 30px;
+    height: 404px;
     margin-bottom: 30px;
+    border: 1px solid #EEEEEE;
 }
 
 .work-item:nth-child(3n) {
@@ -414,6 +428,7 @@ body {
 .foot-content {
     padding-top: 60px;
     padding-bottom: 60px;
+    height: 252px;
 }
 
 .logo-footer-sec {
