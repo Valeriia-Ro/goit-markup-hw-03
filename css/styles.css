@@ -121,7 +121,6 @@ body {
     align-items: center;
     padding-top: 24px;
     padding-bottom: 25px;
-    height: 80px;
     border-bottom: 1px solid #EEEEEE;
     
 }
@@ -136,6 +135,7 @@ body {
 .block {
     padding-top: 200px;
     padding-bottom: 200px;
+    
     
 }
 /* главный заголовок h1 */
@@ -152,7 +152,6 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--white-color);
-    height: 120px;
     
 }
 
@@ -202,7 +201,7 @@ body {
 .features-list {
     display: flex;
     flex-wrap: wrap;
-    height: 101px;
+    
 }
 
 .features-list>.item {
@@ -243,7 +242,6 @@ body {
 
 .special {
     margin-bottom: 94px;
-    height: 386px;
 }
 
 /* заголовки h2 */
@@ -272,7 +270,6 @@ body {
 .team-content {
     padding-top: 94px;
     padding-bottom: 94px;
-    height: 648px;
 }
 
 .team-list {
@@ -283,6 +280,9 @@ body {
     width: 270px;
     margin-right: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    background-color: var(--white-color);
+    text-align: center;
 }
 
 .team-element:last-child {
@@ -343,7 +343,8 @@ body {
     display: flex; 
     justify-content: center; 
     margin-bottom: 36px;
-    height: 52px;
+    padding-bottom: 16px;
+    
 }
 .btn-item:not(:last-child) {
     margin-right: 8px;
@@ -380,6 +381,8 @@ body {
     height: 404px;
     margin-bottom: 30px;
     border: 1px solid #EEEEEE;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .work-item:nth-child(3n) {
