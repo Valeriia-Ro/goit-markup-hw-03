@@ -294,7 +294,7 @@ body {
 }
 
 .team-ph {
-   margin-bottom: 30px; 
+   margin-bottom: 28px; 
 }
 
 /* наша команда имена */
@@ -304,7 +304,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.19em;
+    line-height: 18px;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
     margin-top: 0;
